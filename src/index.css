@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  background-color: #F7FAFC;
+  font-family: -apple-system, BlinkMacSystemFont, 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bdr {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.btn-grad {
+  background-image: linear-gradient(to right, #673AB7 0%, #512DA8  51%, #673AB7  100%)
+}
+
+.btn-grad {
+  border-radius: 8px;
+  transition: 0.5s;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+}
+
+.btn-grad:hover {
+  color: #CBD5E0;
+}
